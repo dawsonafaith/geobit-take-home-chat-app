@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js" defer></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <!-- displays the messages themselves -->
+    <ul id="messages"></ul>
+
+    <!-- the input section & send button -->
+    <form id="form" action="">
+        <input id="input" autocomplete="off" /><button>send</button>
+    </form>
+</body>
+</html>

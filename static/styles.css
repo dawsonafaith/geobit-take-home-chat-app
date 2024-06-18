@@ -1,0 +1,46 @@
+/* style of the message list - gets rid of bullet points */
+#messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* style of messages within the list */
+#messages li {
+    padding: 8px;
+    margin-bottom: 2px;
+    background-color: #aeaeae;
+}
+
+/* changes all font from the default */
+body {
+    font-family: Arial;
+}
+
+/* makes the input/button cover width */
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* look of the input field for messages */
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* look of the 'send' button */
+button {
+    padding: 10px 15px;
+    background-color: #c065ca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* changes color when hovering over */
+button:hover {
+    background-color: #871a98;
+}

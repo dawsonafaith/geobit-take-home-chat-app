@@ -4,12 +4,11 @@ simple application to send and display chats using Python, Flask, JavaScript, an
 ## Set Up
 this was developed and tested within a venv virtual enviornoment
 
-'''
+```bash
 python -m venv chat
 chat\Scripts\activate
-'''
-
-be sure to pip install flask, datetime, firestore, and of within your venv
+pip install Flask google-cloud-firestore datetime
+```
 
 
 

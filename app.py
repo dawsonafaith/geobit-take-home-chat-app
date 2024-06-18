@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '0aff0a4f3a9c097003c50b3624aec72b'
 
 # sets the environment variable for google cloud credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/dawso/Downloads/geobit-take-home-test-fc7ab2bd20e0.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'x'
 
 # initialize firestore
 db = firestore.Client()
